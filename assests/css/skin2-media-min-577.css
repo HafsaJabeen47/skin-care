@@ -1,0 +1,229 @@
+/* MIN-WIDTH 577px  */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .wrapper{
+        min-width: 577px;
+    }
+    /* PRE TOP MENU */
+    .top-bar{
+        min-width: 577px;
+    }
+    .top-left-icon{
+        margin: auto 50px;
+        width: 250px;
+    }
+    .top-left-icon img{
+        width: 20px;
+        height: 20px;
+    }
+    #yt-img{
+        height: 16.45px;
+        margin-top: 3px;
+    }
+    .top-right-info{
+        display: none;
+    }
+    #bar{
+        display: flex;
+    }
+    /* WHITE LOGO MENU*/
+    .logo img{
+        width: 130px;
+        height: 50.96px;
+        margin: auto 50px;
+    }
+    .menu{
+        display: none;
+    }
+    #bar-black{
+        display: flex;
+        font-size: 32px;
+    }
+    /* HERO SECTION */
+    .hero-heading{
+        margin-left: 50px;
+    }
+    .hero-heading h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .hero-heading p{
+        width: 250px;
+    }
+    .hero-btn{
+        margin-left: 50px;
+    }
+    .hero-btn p{
+        letter-spacing: 1px;
+    }
+    /* HERO BOTTOM IMAGES SECTION */
+    .img-parent-cont{
+        min-width: 577px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img1 img{
+        width: 500px;
+        height: 300px;
+    }
+     /* NEW ARRIVALS */
+     .new-arrivals-cont{
+        min-width: 577px;
+    }
+    .new-arrivals{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .new-arrivals p{
+        width: 500px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+    /* PRODUCT CONTAINER */
+    .Products-imgs-cont{
+        display: flex;
+        flex-wrap: wrap;
+        width: 577px;
+        height: 1500px;
+        margin-top: 30px;
+    }
+    .product{
+        width: 288px;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p{
+        font-size: 14px;
+
+    }
+    .product span{
+        font-size: 18px;
+    }
+    .product img{
+        width: 250px;
+        height: 240px;
+    }
+    .add-to-cart{
+        width: 220px;
+        height: 30px;
+    }
+    .add-to-cart p{
+        font-size: 13px;
+    }
+    .add-to-cart img{
+        width: 18px;
+        height: 18px;
+    }
+    /* CUSTOMERS REVIEWS */
+    .customer-reviews-cont{
+        width: 100%;
+        height: 700px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+    #CRT{
+        gap: 10px;
+    }
+    .customer-review-text span{
+        font-size: 20px;
+    }
+    .customer-review-img img{
+        width: 450px;
+        height: 330px; 
+    }
+    .customer-review-text p{
+        font-size: 16px;
+    }
+    /* LATEST NEWS */
+    .latest-news-cont{
+        width: 577px;
+        height: 1580px;
+    }
+    .latest-news-text{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .latest-news-text p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .latest-news-images{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .latest-news-img{
+        gap: 10px;
+    }
+    .latest-news-img img{
+        width: 530px;
+        height: 300px;
+    }
+    /* SHIPPING SECTION */
+    .shipping-sec{
+        flex-direction: column;
+        height: 250px;
+    }
+    #shipping-second img{
+        margin-left: -40px;
+    }
+    /* FOOTER */
+    .footer-cont{
+        height: 600px;
+    }
+    .footer-info{
+        width: 576px;
+        flex-wrap: wrap;
+    
+    }
+    .footer-logo{
+        width: 576px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-text{
+        width: 150px;
+    }
+    .media-footer{
+        align-items: center;
+        width: 288px;
+        margin: 30px 0;
+    }
+    .media-touch{
+        align-items: center;
+        gap: 10px;
+    }
+    .media-touch p {
+        text-align: center;
+    }
+    .email-text{
+        width: 476px;
+    }
+    /* FOOTER ICONS */
+    .footer-icons-cont{
+        width: 576px;
+        padding: 0 0;
+        justify-content: space-around;
+    }
+    .copyright-cont{
+         display: none;
+    }
+    #copy{
+        /* width: 476px; */
+        display: flex;
+    }
+    .copyright-cont p{
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "poppins";
+    }
+    
+    .copyright-cont span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
